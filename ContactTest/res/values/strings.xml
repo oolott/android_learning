@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContactTest</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="account_label">siolette</string>
+	<string name="title_fmt">fmt</string>
+	<string name="key1_action">key1</string>
+	<string name="key1_summary">key1_summary</string>
+</resources>
