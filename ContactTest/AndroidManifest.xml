@@ -32,7 +32,7 @@
         </activity>
 
         <service
-            android:name="com.siolette.com.account.AuthenticationService"
+            android:name="com.siolette.account.AuthenticationService"
             android:exported="true" >
 
             <!-- 该action将由系统运行授权时发出 -->
@@ -46,14 +46,14 @@
         </service>
 
         <provider
-            android:name="com.siolette.com.account.StubProvider"
+            android:name="com.siolette.account.StubProvider"
             android:authorities="com.siolette.account.provider"
             android:exported="false"
             android:syncable="true" >
         </provider>
 
         <service
-            android:name="com.siolette.com.account.SyncService"
+            android:name="com.siolette.account.SyncService"
             android:exported="true"
             android:process=":sync" >
             <intent-filter>

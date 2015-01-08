@@ -1,6 +1,6 @@
 package com.siolette.contacttest;
 
-import com.siolette.com.account.Constants;
+import com.siolette.account.Constants;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

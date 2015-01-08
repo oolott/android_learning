@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accountType="com.siolette.AccountType"
-    android:contentAuthority="com.siolette.account.provider"
-    android:supportsUploading="false"
+    android:accountType="com.siolette.android.accounttype"
+    android:contentAuthority="com.android.contacts"
+    android:supportsUploading="true"
     android:allowParallelSyncs="false"
     android:isAlwaysSyncable="true"
     android:userVisible="true" />
+    <!-- android:contentAuthority="com.siolette.account.provider" -->
