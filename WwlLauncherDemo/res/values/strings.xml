@@ -1,5 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">WwlLauncherDemo</string>
+    <string name="title_activity_live_folder_sample">LiveFolderSampleActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

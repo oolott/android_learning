@@ -1,0 +1,11 @@
+实现Shortcut步骤
+
+1. 建立activity
+2. manifest里面注册，并且加上intent-filter, name为android.intent.action.CREATE_SHORTCUT
+3. activity, 建立一个Intent实例, 设置Extra_***属性，然后返回
+
+实现LiveFolder(已经被AppWidget Collection替代)步骤
+
+1. 建立activity
+2. manifest里面注册，并且加上intent-filter, name为android.intent.action.CREATE_LIVEFOLDER
+3. activity, 建立一个Intent实例, 设置Extra_***属性和Data属性，然后返回
